@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\AddElementsArray.cs" />
+    <Compile Include="Factorial\Factorial.cs" />
     <Compile Include="HelloWorld\HelloWorld.cs" />
     <Compile Include="HelloWorld\test.cs" />
     <Compile Include="Number\Numbers.cs" />
@@ -51,10 +53,13 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseString\ReverseStringArray.cs" />
+    <Compile Include="StringReverse\StringsReverse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Febonacci\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
